@@ -20,10 +20,10 @@ var your_drupal_login = function() {
       user: "Username",
       pass: "password"
     },
-    drupalOrg: {
-      host: "drupal.org",
-      user: "Username",
-      pass: "password"
+    TheWhiteHouse: {
+      host: "petitions.whitehouse.gov",
+      user: "Barack.Obama",
+      pass: "Passw0rd123"
     },
   };
 
