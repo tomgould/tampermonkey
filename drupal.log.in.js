@@ -24,7 +24,7 @@ var your_drupal_login = function() {
       host: "petitions.whitehouse.gov",
       user: "Barack.Obama",
       pass: "Passw0rd123"
-    },
+    }
   };
 
   if (pathname === "/user") {
@@ -32,7 +32,7 @@ var your_drupal_login = function() {
       var site = drupalSites[key];
       if (site.host === hostname && $('input[name="name"]').length) {
         var r = confirm("Do you want to log in as " + site.user + " using password " + site.pass + "?");
-        if (r == true) {
+        if (r === true) {
             $('input[name="name"]').val(site.user);
             $('input[name="pass"]').val(site.pass);
             $('#edit-submit').click();
@@ -40,6 +40,6 @@ var your_drupal_login = function() {
       }
     }
   }
-}
+};
 
 your_drupal_login();
