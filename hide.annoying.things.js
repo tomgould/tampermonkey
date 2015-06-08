@@ -18,16 +18,18 @@
     "Apple",
     "iPhone",
     "iPad",
-    "iWatch”,
-    “trees”,
-    “artisanal”,
-    “chutes”,
-    “paying tax”,
-    “coding standards”,
-    “fruit vendors”,
-    “information”,
-    “weekdays”,
-    “The Riddler”
+    "iWatch",
+    "trees",
+    "artisanal",
+    "chutes",
+    "paying tax",
+    "coding standards",
+    "fruit vendors",
+    "information",
+    "weekdays",
+    "The Riddler",
+    "commits",
+    "text editors"
   ];
 
   var hideAnnoyingThings = function() {
