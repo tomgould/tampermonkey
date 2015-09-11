@@ -27,5 +27,5 @@ javascript: function getRandomFilth() {
 }
 var x = getWords();
 x.forEach(function(word) {
-    htmlreplace(" " + word, " " + getRandomFilth());
+    htmlreplace(" " + word, " " + getRandomFilth() + " " + word);
 });
